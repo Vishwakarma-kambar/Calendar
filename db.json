@@ -1,79 +1,75 @@
 {
   "resources": [
-    {
-      "id": "a",
-      "title": "Apple",
-      "description": "description for All Day Event"
-    },
-    {
-      "id": "b",
-      "title": "Apple-Cohen",
-      "description": "description for All Day Event"
-    },
-    {
-      "id": "c",
-      "title": "Davisson",
-      "description": "description for All Day Event"
-    },
-    {
-      "id": "d",
-      "title": "Mackenzie",
-      "description": "description for All Day Event"
-    },
-    {
-      "id": "e",
-      "title": "Apple William",
-      "description": "description for All Day Event"
-    },
-    {
-      "id": "f",
-      "title": "David",
-      "description": "description for All Day Event"
-    }
+    { "id": "a", "title": "Apple" },
+    { "id": "b", "title": "Apple-Cohen" },
+    { "id": "c", "title": "Davisson" },
+    { "id": "d", "title": "Mackenzie" },
+    { "id": "e", "title": "Apple William" },
+    { "id": "f", "title": "David" },
+    { "id": "g", "title": "Mackenzie,O'Leary" },
+    { "id": "h", "title": "Davisson,Lambert" },
+    { "id": "i", "title": "Test1" }
   ],
+
   "events": [
     {
       "id": "1",
-      "resourceIds": ["a"],
-      "eventMinHeight": 100,
+      "resourceId": "a",
       "title": "Meeting1",
-      "start": "2023-02-11",
-      "end": "2023-02-12",
-      "startTime": "08:00:00",
-      "endTime": "10:30:00",
+      "start": "2023-06-04T08:00:00",
+      "end": "2023-06-04T10:30:00",
       "description": "description for All Day Event"
     },
     {
       "id": "2",
-      "resourceIds": ["b"],
+      "resourceId": "b",
       "title": "Meeting2",
-      "start": "2023-02-10",
-      "end": "2023-02-10",
-      "startTime": "11:00:00",
-      "endTime": "13:00:00",
+      "start": "2023-06-04T11:00:00",
+      "end": "2023-06-04T13:00:00",
       "color": "yellow",
       "description": "description for All Day Event"
     },
     {
       "id": "3",
-      "resourceIds": ["c"],
+      "resourceId": "c",
       "title": "Meeting3",
-      "start": "2023-02-10",
-      "end": "2023-02-10",
-      "startTime": "10:00:00",
-      "endTime": "11:30:00",
+      "start": "2023-02-10T10:00:00",
+      "end": "2023-02-10T11:30:00",
       "color": "red",
       "description": "description for All Day Event"
     },
     {
       "id": "4",
-      "resourceIds": ["d"],
+      "resourceId": "d",
       "title": "Meeting4",
-      "start": "2023-02-10",
-      "end": "2023-02-10",
-      "startTime": "13:00:00",
-      "endTime": "15:00:00",
+      "start": "2023-02-10T13:00:00",
+      "end": "2023-02-10T15:00:00",
       "color": "green",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "5",
+      "resourceId": "e",
+      "title": "Meeting2",
+      "start": "2023-02-10T11:00:00",
+      "end": "2023-02-10T13:00:00",
+      "color": "yellow",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "6",
+      "resourceId": "f",
+      "title": "Meeting3",
+      "start": "2023-02-10T11:00:00",
+      "end": "2023-02-10T12:30:00",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "7",
+      "resourceId": "g",
+      "title": "Meeting4",
+      "start": "2023-02-10T14:00:00",
+      "end": "2023-02-10T15:00:00",
       "description": "description for All Day Event"
     }
   ]
