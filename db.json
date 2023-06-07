@@ -1,0 +1,80 @@
+{
+  "resources": [
+    {
+      "id": "a",
+      "title": "Apple",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "b",
+      "title": "Apple-Cohen",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "c",
+      "title": "Davisson",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "d",
+      "title": "Mackenzie",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "e",
+      "title": "Apple William",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "f",
+      "title": "David",
+      "description": "description for All Day Event"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "resourceIds": ["a"],
+      "eventMinHeight": 100,
+      "title": "Meeting1",
+      "start": "2023-02-11",
+      "end": "2023-02-12",
+      "startTime": "08:00:00",
+      "endTime": "10:30:00",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "2",
+      "resourceIds": ["b"],
+      "title": "Meeting2",
+      "start": "2023-02-10",
+      "end": "2023-02-10",
+      "startTime": "11:00:00",
+      "endTime": "13:00:00",
+      "color": "yellow",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "3",
+      "resourceIds": ["c"],
+      "title": "Meeting3",
+      "start": "2023-02-10",
+      "end": "2023-02-10",
+      "startTime": "10:00:00",
+      "endTime": "11:30:00",
+      "color": "red",
+      "description": "description for All Day Event"
+    },
+    {
+      "id": "4",
+      "resourceIds": ["d"],
+      "title": "Meeting4",
+      "start": "2023-02-10",
+      "end": "2023-02-10",
+      "startTime": "13:00:00",
+      "endTime": "15:00:00",
+      "color": "green",
+      "description": "description for All Day Event"
+    }
+  ]
+}
